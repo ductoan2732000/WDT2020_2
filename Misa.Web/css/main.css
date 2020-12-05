@@ -1,0 +1,32 @@
+﻿@import url('layout/content.css');
+@import url('layout/header.css');
+@import url('layout/nvbar.css');
+
+body {
+    font-family:GoogleSans-Regular;
+    font-size: 13px;
+    margin: 0px;
+}
+@font-face {
+    font-family: 'GoogleSans-Regular';
+    src: url('/content/font/GoogleSans-Regular.otf') format('opentype');
+}
+@font-face {
+    font-family: 'GoogleSans-MediumItalic';
+    src: url('/content/font/GoogleSans-MediumItalic.otf') format('opentype');
+}
+@font-face {
+    font-family: 'GoogleSans-Thin';
+    src: url('/content/font/GoogleSans-Thin.otf') format('opentype');
+}
+.panel_left {
+    width: 200px;
+    height: 100vh;
+}
+.panel_right {
+    position: absolute;
+    top: 0px;
+    left: 200px;
+    width: calc(100% - 200px);
+    height: 100vh;
+}

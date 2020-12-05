@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Misa.Web"
   ],
-  "SelectedNode": "\\Misa.Web",
+  "SelectedNode": "\\.gitignore",
   "PreviewInSolutionExplorer": false
 }
