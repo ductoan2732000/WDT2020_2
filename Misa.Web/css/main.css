@@ -30,3 +30,43 @@ body {
     width: calc(100% - 200px);
     height: 100vh;
 }
+.panel_left .logo_icon{
+    display: flex;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+
+}
+.logo_icon .logo_icon_logo {
+    width: 30px;
+    height: 30px;
+    background-image: url(/content/img/toggle.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.logo_icon .logo_icon_icon {
+    width: 100%;
+    height: 30px;
+    background-image: url(/content/img/cukcuk-logo.png);
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.menu {
+    width: 100%;
+}
+    .menu .menu_item {
+        display: flex;
+    }
+    .menu .menu_item :hover {
+        background-color: #e5e5e5;
+    }
+        .menu .menu_item .menu_item_icon {
+            width: 24px;
+            height: 24px;
+            background-color: aqua;
+        }
+        .menu .menu_item .menu_item_text {
+            width: 100%;
+            height: 24px;
+        }
